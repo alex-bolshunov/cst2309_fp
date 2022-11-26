@@ -1,0 +1,39 @@
+#pictures-box {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+#pictures {
+    left: 0;
+    right: 0;
+    display: flex;
+    position: absolute;
+    width: 500%;
+    height: inherit;
+    border: 1px solid red;
+    overflow: hidden;
+    transition: right 1s ease-in-out, left 1s ease-in-out;
+}
+
+.picture {
+    display: inline-block;
+    width: 20%;
+    height: inherit;
+    border: 1px solid green;
+    text-align: center;
+}
+
+.scroll-botton {
+    position: absolute;
+    top: 140px;
+}
+
+#to-right {
+    left: 20px;
+}
+
+#to-left{
+    right: 20px;
+}
