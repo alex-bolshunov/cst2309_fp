@@ -1,9 +1,12 @@
+let t;
+
 let showMessage = (message) => {
+    if(t) clearTimeout(t);
+
     document.getElementById("warning").innerHTML= message;
     document.getElementById("warning").style.display = "block";
-    setTimeout(
-        () => document.getElementById("warning").style.display = "none", 10000
-        );
+    
+    return setTimeout(() => document.getElementById("warning").style.display = "none", 10000);
 }
 
 let reset = () => {
@@ -47,6 +50,6 @@ let getValues = () =>{
         message = "Your registration form has been submitted";
     } 
 
-    showMessage(message);
+    t = showMessage(message);
 }
 

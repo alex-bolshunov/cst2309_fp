@@ -1,25 +1,19 @@
 #registration-form {
-    height: 800px;
+    height: 750px;
     position: relative;
-    padding: 100px 35px 35px 35px;
+    padding: 70px 35px 35px 35px;
 }
 
 form {
     font-size: 20px;
     height: 600px;
     width: 50%;
-    max-width: 800px;
-    margin: 0 auto 50px auto;
+    max-width: 600px;
+    margin: 0 auto 10px auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-
-/* h2 {
-    text-align: center;
-    font-size: 36px;
-    padding: 30px 0;
-} */
 
 #warning {
     width: 100%;
@@ -29,7 +23,9 @@ form {
     top: 24px;
     right: 0;
     font-size: 28px;
-    color: lightcoral;
+    color: white;
+    font-weight: bold;
+    /* background-color: #ccc; */
 }
 
 label {
@@ -40,7 +36,7 @@ input[type=text] {
     color: black;
     font-size: 16px;
     border-radius: 5px;
-    padding: 12px 26px;
+    padding: 5px 10px;
     margin: 5px 0;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -70,6 +66,26 @@ input::placeholder {
 .form-unit {
     padding: 10px;
     margin: 10px;
+}
+
+.radio-unit {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.radio-unit > h6 {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.rad {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rad label {
+    margin-right: 10px;
 }
 
 .form-unit input {
@@ -140,14 +156,15 @@ input::placeholder {
   }
 
 
-  @media only screen and (max-width: 1350px) {
+  @media only screen and (max-width: 1200px) {
     #registration-form {
-        height: 1050px;
+        height: 900px;
     }
 
     form {
         font-size: 16px;
-        height: 900px;
+        /* height: inherit; */
+        height: 800px;
     }
 
     .row {
