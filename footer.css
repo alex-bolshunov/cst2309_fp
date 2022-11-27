@@ -1,0 +1,40 @@
+footer {
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+}
+
+#map {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: inherit;
+    width: 50%;
+}
+
+#map > iframe {
+    margin: 0 auto;
+    width: 600px;
+    height: 450px;
+    border-radius: 3px;
+}
+
+.info-box {
+    padding: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.info-unit {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.info-unit > h5 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+

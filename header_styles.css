@@ -1,0 +1,50 @@
+header {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 725px;
+    text-align: center;
+    border-bottom: 2px solid black;
+    color: white;
+    padding-top: 60px;
+}
+
+.header-container {
+  padding: 20px 3%;
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+
+h1 {
+  font-size: 36px;
+  padding: 10px 0;
+}
+
+.header-container ul {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-container li {
+    float: left;
+  }
+
+  .header-container .ul {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+
+  .header-container .menu-icon {
+    display: none;
+  }
+
+
+ 
