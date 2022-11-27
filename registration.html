@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="icon" type="image/x-icon" href="pictures/fav.webp">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header_styles.css">
+    <link rel="stylesheet" href="scroller.css">
+    <script src="scroller.js" defer></script>
+    <script src="logic2.js" defer></script>
+    <script src="form_validation.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="header-container">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#mission">Plans</a></li>
+                <li><a href="registration.html">Registration</a></li>
+                <li><a href="trainers.html">Personal Trainer</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </nav>
+        <h1>GYM name</h1>
+        <div id="pictures-box">
+            <div id="pictures"></div>
+            <button id="to-right" class="scroll-botton" onclick="scroller2.move('right')">&lt;</button>
+            <button id="to-left" class="scroll-botton" onclick="scroller2.move('left')">&gt;</button>
+        </div>
+    </header>
+    <section id="registration-form">
+        <p id="warning"></p>
+        <form>
+            <div class="row">
+                <div class="form-unit">
+                    <label for="fname">First Name</label>
+                    <input type="text" placeholder="e.g. Alex" id="fname">
+                </div>
+                <div class="form-unit">
+                    <label for="lname">Last Name</label>
+                    <input type="text" placeholder="e.g. Bolshunov" id="lname">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-unit">
+                    <label for="email">Email Address</label>
+                    <input type="text" placeholder="noname@email.com" id="email">
+                </div>
+                <div class="form-unit">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" placeholder="(000) 000-0000" id="phone">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-unit width">
+                    <h6>Gender:</h6>
+                    <div class="radio">
+                        <label for="female">Female
+                            <input type="radio" id="female" value="Female" name="gender" checked>
+                        </label>
+                        <label for="male">Male
+                            <input type="radio" id="male" value="Male" name="gender">
+                        </label>
+                        <label for="other">Other
+                            <input type="radio" id="other" value="Other" name="gender">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-unit width">
+                    <h6>Plan:</h6>
+                    <div class="radio">
+                        <label for="plan1">Plan 1
+                            <input type="radio" id="plan1" value="plan1" name="plan" checked>
+                        </label>
+                        <label for="plan2">Plan 2
+                            <input type="radio" id="plan2" value="plan2" name="plan">
+                        </label>
+                        <label for="plan3">Plan 3
+                            <input type="radio" id="plan3" value="plan3" name="plan">
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <input type="button" value="Submit" class="button" onclick="getValues()">
+        </form>
+    </section>
+    <footer id="contact">
+        <div id="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3030.3506809106757!2d-73.9566773838727!3d40.57801415373715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24469580fae67%3A0x33e8c849e2614039!2s150%20Corbin%20Pl%2C%20Brooklyn%2C%20NY%2011235!5e0!3m2!1sen!2sus!4v1669511995152!5m2!1sen!2sus"
+                style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="info-box">
+            <div class="info-unit">
+                <h5>Contact</h5>
+                <ul>
+                    <li><a href="tel:+188">P: (917) 732-6497</a></li>
+                    <li><a href="mailto:noname@internet.com">E: noname@internet.com</a></li>
+                </ul>
+            </div>
+            <div class="info-unit">
+                <h5>Hours of operation</h5>
+                <ul>
+                    <li>Monday - Thursday: 6:00am - 12:00am</li>
+                    <li>Friday - Sunday: 8:00am - 11:00pm</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -63,5 +63,8 @@
     margin-bottom: 10px;
 }
 
+section > h6 {
+    display: none;
+}
 
 
