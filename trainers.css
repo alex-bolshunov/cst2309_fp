@@ -135,3 +135,24 @@ section > h6 {
       transform: opacity linear;
     }
   }
+
+  @media (max-width: 620px) {
+    #trainers {
+      height: 1060px;
+    } 
+
+    #p_desc {
+      width: 100%;
+      height: 340px;
+      padding: 20px;
+      margin: 0;
+    }
+    
+    .container_ca {
+      width:inherit;
+    }
+
+    .carousel .carousel_item img {
+    }
+
+  }

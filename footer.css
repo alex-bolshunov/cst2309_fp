@@ -38,3 +38,30 @@ footer {
     margin-bottom: 5px;
 }
 
+#address {
+    display: none;
+}
+
+@media (max-width: 620px) {
+    #address {
+        display: block;
+    }
+    
+    #contact {
+        height: 400px;
+    }
+    
+    #map {
+        display: none;
+    }
+
+    .info-box {
+        padding: 25px;
+    }
+
+    .info-unit {
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 3px;
+    }
+}

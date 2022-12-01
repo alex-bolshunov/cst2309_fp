@@ -178,6 +178,7 @@ input::placeholder {
 
     #registration-form {
         height: 800px;
+        padding: 75px 15px 15px 15px;
     }
 
     h2 {
@@ -198,5 +199,9 @@ input::placeholder {
     .button{
         padding: 10px 40px;
         font-size: 18px; 
+    }
+
+    .row {
+        padding: 5px;
     }
  }
