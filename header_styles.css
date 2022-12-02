@@ -3,7 +3,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 725px;
+    height: 735px;
     text-align: center;
     border-bottom: 2px solid black;
     color: white;
@@ -21,8 +21,10 @@ header {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 46px;
   padding: 10px 0;
+  font-family: 'Rubik Distressed', cursive;
+
 }
 
 .header-container ul {
@@ -49,12 +51,14 @@ h1 {
   @media (max-width: 620px) { 
     
     header {
-        height: 650px;
+        height: 450px;
+        position: relative;
     }
     
     h1 {
         font-size: 55px;
         top: 250px;
+        font-size: 30px;
     }
     
     .header-container {

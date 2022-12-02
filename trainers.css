@@ -35,6 +35,10 @@ section > h6 {
     font-size: 24px;
 }
 
+#p_desc > p {
+  text-align: center;
+}
+
 .carousel {
     overflow: hidden;
     max-width: 480px;
@@ -105,8 +109,8 @@ section > h6 {
   .p_info {
     padding: 0 25px;
     position: absolute;
-    bottom: -200px;
-    height: 250px;
+    bottom: -250px;
+    height: 300px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     transition: bottom 1s ease-in;
@@ -118,6 +122,10 @@ section > h6 {
     text-align: center;
     font-size: 30px;
     padding: 10px 0;
+  }
+
+  .p_info > p {
+    font-size: 18px;
   }
 
   .p_info:hover {
@@ -137,22 +145,34 @@ section > h6 {
   }
 
   @media (max-width: 620px) {
+    header {
+      padding-top: 35px;
+      height: 745px;
+    }
+    
     #trainers {
-      height: 1060px;
+      height: 930px;
     } 
 
     #p_desc {
       width: 100%;
       height: 340px;
       padding: 20px;
-      margin: 0;
+      margin: 5px 0;
+      font-size: 22px;
     }
     
     .container_ca {
       width:inherit;
     }
 
-    .carousel .carousel_item img {
+    .carousel {
+      height: 550px;
+      margin: 0;
+    }
+
+    .carousel_actions {
+      top: 60%;
     }
 
   }

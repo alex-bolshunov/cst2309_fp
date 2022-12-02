@@ -38,7 +38,8 @@
     top: 250px;
     cursor: pointer;
     padding: 25px 10px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    border: 1px solid rgba(204, 224, 255, 0.6);
     border-radius: 3px;
 }
 
@@ -48,4 +49,17 @@
 
 #to-left{
     right: 20px;
+}
+
+@media (max-width: 620px) {
+    .picture > img {
+        width: 412px;
+        height: 275px;
+        border-radius: 3px;
+    }
+
+    .scroll-botton{
+        top: 115px;
+        border: 2px solid rgba(204, 224, 255, 0.6);
+    }
 }

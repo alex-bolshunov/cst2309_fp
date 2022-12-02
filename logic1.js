@@ -9,41 +9,35 @@ const headerPicturesLP = {
 const plans = [
     {
         "name": "Plan 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua \
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "description": "1 single session class <br> Swimming pool <br> Locker room with showers",
         "price": 25
     }, 
     {
         "name": "Plan 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua \
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "price": 25
+        "description": "10 Classes a Month <br> Fitness assessment <br> Swimming pool <br> Cafeteria <br> Locker room with showers",
+        "price": 35
     }, 
     {
         "name": "Plan 3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua \
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. \
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
-        "price": 25
+        "description": "Unlimited classes <br> Personal trainer <br>  Fitness assessment <br>  Personalized Macros Diet Plan <br> Swimming pool <br> Cafeteria <br> Locker room with showers",
+        "price": 50
     }, 
 ];
 
 const mission = {
-    "header": "Mission",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et \
-    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo \
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "header": "Our mission",
+    "text": "The quality of your health determines the quality of your life and nothing is more important than that. \
+    Our vision is to create a community of like-minded people who share in the mission of health and wellness for all. \
+    We owe it to ourselves and our families to be healthy in mind, body, and spirit. \
+    Lean Wolves Gym is run by a group of trainers who own and share in this vision. \
+    They are leaders in their communities and the best at their craft. Come join us for a class and join in the movement."
 };
 
 const desc = {
-    "header": "Description header",
-    "text" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. \
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    "header": "Our plans",
+    "text" : "Lean Wolves Gym is a fitness facility that provides a mix of instructor-led classes for improved strength, endurance, flexibility, \
+    and wellness. Mix and match weight training, cardio, boot camp, hot yoga, HIIT, functional fitness, boxing and more. Unlock your potential! \
+    Start your journey with the membership tier that fits your needs."
 };
 
 let lengthPictures = Object.keys(headerPicturesLP).length;
