@@ -69,6 +69,14 @@ section > h6 {
     display: none;
 } 
 
+.pic{
+    position: absolute;
+    width: 120px;
+    top: 308px;
+    right: 30px;
+    border-radius: 5px;
+}
+
 
 @media (max-width: 620px) { 
     #plans {
@@ -97,6 +105,10 @@ section > h6 {
 
     .price {
         right: 100px;
+    }
+
+    .pic {
+        display: none;
     }
 }
 

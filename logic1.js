@@ -58,7 +58,7 @@ for(let i = 0; i < lengthPictures; i ++) {
 }
 
 for(let i = 0; i < lengthPlans; i++){
-    plansElements  += "<a href='registration.html' class='plan'><h5>" + plans[i].name + "</h5><p>" + plans[i].description + "</p><p class='price'>Price: $"+ plans[i].price  +"</p></a>"
+    plansElements  += "<a href='registration.html' class='plan'><h5>" + plans[i].name + "</h5><p>" + plans[i].description +  "</p><p class='price'>Price: $"+ plans[i].price  +"</p> <img class='pic' src='pictures/"+ (10 + i) + ".jpg' alt=''></a>"
 }
 
 picturesContainer.innerHTML = headerElements;
